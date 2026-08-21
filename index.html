@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>
+        IoT Accident Detection
+    </title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+</head>
+
+<body>
+
+    <main class="container">
+
+        <header>
+            <h1>
+                IoT Accident Detection
+            </h1>
+
+            <p>
+                Real-time accident monitoring
+                and emergency location alerts
+            </p>
+        </header>
+
+
+        <section class="card">
+
+            <h2>
+                Emergency Status
+            </h2>
+
+            <p id="alertStatus">
+                No active emergency
+            </p>
+
+            <p>
+                Device:
+                <span id="deviceStatus">
+                    Offline
+                </span>
+            </p>
+
+        </section>
+
+
+        <section class="card">
+
+            <h2>
+                Latest Location
+            </h2>
+
+            <p>
+                Latitude:
+                <span id="latitude">
+                    Not available
+                </span>
+            </p>
+
+            <p>
+                Longitude:
+                <span id="longitude">
+                    Not available
+                </span>
+            </p>
+
+            <button id="mapButton">
+                Open Location
+            </button>
+
+        </section>
+
+
+        <section class="card">
+
+            <h2>
+                Event Information
+            </h2>
+
+            <p>
+                Last event:
+                <span id="lastEvent">
+                    No event
+                </span>
+            </p>
+
+            <p>
+                Alert type:
+                <span id="alertType">
+                    None
+                </span>
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
